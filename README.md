@@ -1,5 +1,5 @@
-## Cyberspace Antifa
+## ftp://distro 
 
-[noblogs site](https://cyberspaceantifa.noblogs.org/)
+[noblogs site](https://ftpdistro.noblogs.org/)
 
 ///
