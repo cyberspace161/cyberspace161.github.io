@@ -1,5 +1,9 @@
 ## ftp://distro 
 
-[noblogs site](https://ftpdistro.noblogs.org/)
+[Blog](https://ftpdistro.noblogs.org/)
+
+[Twitter](https://twitter.com/ftpdistro)
+
+[Instagram](https://instagram.com/ftp.distro)
 
 ///
