@@ -6,4 +6,6 @@
 
 [Instagram](https://instagram.com/ftp.distro)
 
+[Twitter](twitter.com/ftpdistro)
+
 ///
