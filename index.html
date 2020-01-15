@@ -5,64 +5,49 @@
 <body>
 <h1>ftp://distro</h1>
 
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-<input type="hidden" name="cmd" value="_s-xclick">
-<table>
-<tr><td><input type="hidden" name="on0" value="ZINES">ZINES</td></tr><tr><td><select name="os0">
-	<option value="/// TIQQUN">TIQQUN $20.00 USD</option>
-	<option value="/// WORLD_IN_REVOLT">WORLD_IN_REVOLT $20.00 USD</option>
-	<option value="/// BLACK_AUTONOMY">BLACK_AUTONOMY $20.00 USD</option>
-	<option value="/// J20">J20 $20.00 USD</option>
-	<option value="/// ALL_ZINE_PACKS">ALL_ZINE_PACKS $80.00 USD</option>
-</select> </td></tr>
-<tr><td><input type="hidden" name="on1" value="Shipping Address:">Shipping Address:</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-</table>
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-<h3>/// TIQQUN</h3>
-<p>A take-down of capitalist cybernetics, offering instead a revitalized hacker ethic (from To Our Friends). Three more texts from The Invisible Committee's <i>Now</i>, and finally a real proposal for armed joy in the 21st century.
+
+<h3>/// TIC</h3>
+<p>A take-down of capitalist cybernetics, offering instead a revitalized hacker ethic (from <i>To Our Friends</i>). Three more texts from The Invisible Committee's <i>Now</i>, and finally a real proposal for armed joy in the 21st century.
 
 
 contains:
-<li>Fuck Off Google by The Invisible Committee</li>
-<li>Everybody Hates the Police by The Invisible Committee</li>
-<li>Tomorrow is Canceled by The Invisible Committee</li>
-<li>Let's Destitute the World by The Invisible Committee</li>
-<li>Beyond the Sad Comforts and Stale Air of Radicalism by Carla Bergman and Nick Montgomery</li></p>
+<li><i>Fuck Off Google</i> by The Invisible Committee</li>
+<li><i>Everybody Hates the Police</i> by The Invisible Committee</li>
+<li><i>Tomorrow is Canceled</i> by The Invisible Committee</li>
+<li><i>Let's Destitute the World</i> by The Invisible Committee</li>
+<li><i>Beyond the Sad Comforts and Stale Air of Radicalism</i> by Carla Bergman and Nick Montgomery</li></p>
 
 <h3>/// WORLD_IN_REVOLT</h3>
 <p>Dispatches from insurrections all around the world. A primer on autonomy, and two texts from Phil A. Neel.
 
 
 contains:
-<li>The People Want the Fall of the Regime by Various Authors</li>
-<li>Memes with Force by Paul Torino</li>
-<li>Inhabit by Various Authors</li>
-<li>Oaths of Blood, Oaths of Water by Phil A. Neel</li>
-<li>Why Riot? by Phil A. Neel</li></p>
+<li><i>The People Want the Fall of the Regime</i> by Various Authors</li>
+<li><i>Memes with Force</i> by Paul Torino</li>
+<li><i>Inhabit</i> by Various Authors</li>
+<li><i>Oaths of Blood, Oaths of Water</i> by Phil A. Neel</li>
+<li><i>Why Riot?</i> by Phil A. Neel</li></p>
 
 <h3>/// BLACK_AUTONOMY</h3>
-<p>A collection of communiques from the Ferguson revolts in 2014, along with Jackie Wang's pivotal <i>Against Innocence</i>, a scathing critique of respectability politics and carceral society. Two classic texts from Kuwasi Balagoon written from prison (R.I.P.) and an anonymous declaration of Black Anarchy.
+<p>A collection of communiques from the Ferguson revolts in 2014, along with Jackie Wang's pivotal <i>Against Innocence</i>, a scathing critique of respectability politics and carceral society. Two classic texts from Kuwasi Balagoon (R.I.P.) written from prison and an anonymous declaration of Black Anarchy.
 
 
 contains:
-<li>Dispatches from Ferguson vol. 1 by Anti State STL</li>
-<li>The Incomprehensible Black Anarchist Position by Anonymous</li>
-<li>Against Innocence by Jackie Wang</li>
-<li>Brink's Trial Closing Statement by Kuwasi Balagoon</li>
-<li>Anarchy Can't Fight Alone by Kuwasi Balagoon</li></p>
+<li><i>Dispatches from Ferguson vol. 1</i> by Anti State STL</li>
+<li><i>The Incomprehensible Black Anarchist Position</i> by Anonymous</li>
+<li><i>Against Innocence</i> by Jackie Wang</li>
+<li><i>Brink's Trial Closing Statement</i> by Kuwasi Balagoon</li>
+<li><i>Anarchy Can't Fight Alone</i> by Kuwasi Balagoon</li></p>
 
 <h3>/// J20</h3>
 <p>A collection of communiques from the fateful day in 2017. Contains multiple (constructive) critiques of wider Anarchist strategy and tactics. All anonymously written and formatted by Crimethinc.
 
 
 contains:
-<li>Lift Every Rift With Ore</li>
-<li>Anarchist Resistance to the Trump Inauguration</li>
-<li>We've Got Your Back</li>
-<li>I was a J20 Street Medic and Defendant</li>
-<li>Between the Sun and the Sea</li></p>
+<li><i>Lift Every Rift With Ore</i></li>
+<li><i>Anarchist Resistance to the Trump Inauguration</i></li>
+<li><i>We've Got Your Back</i></li>
+<li><i>I was a J20 Street Medic and Defendant</i></li>
+<li><i>Between the Sun and the Sea</i></li></p>
 </body>
